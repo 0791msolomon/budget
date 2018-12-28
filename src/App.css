@@ -1,0 +1,46 @@
+#BoxesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+.helloWorldContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.checkers {
+  border: solid black 1px;
+  height: 50vh;
+  margin: 5% 25% 5% 25%;
+}
+.checker {
+  border: solid black 1px;
+  height: 10%;
+}
+.checker:hover {
+  background-color: blue;
+}
+#notesContainer {
+  display: "flex";
+  flex-direction: "column";
+  flex-wrap: "wrap";
+}
+
+#totalAmount {
+  transition: transform 0.2s;
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}
+#totalAmount:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+  color: green;
+}
+.expensesRow:hover {
+  color: green;
+}
